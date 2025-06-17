@@ -1,0 +1,34 @@
+ML-Docker-Orchestrator/
+│
+├── model/
+│   └── train.py
+│
+├── app/
+│   └── main.py
+│
+├── docker/
+│   ├── Dockerfile
+│   └── docker-compose.yml
+│
+├── k8s/
+│   └── deployment.yaml
+│
+├── terraform/
+│   └── main.tf
+│
+├── ansible/
+│   └── provision.yml
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
+├── snowflake/
+│   └── connect_snowflake.py
+│
+├── apache/
+│   └── stream_data.py
+│
+├── requirements.txt
+├── README.md
+└── visual_flowchart.png
