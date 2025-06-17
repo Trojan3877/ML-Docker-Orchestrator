@@ -1,0 +1,16 @@
+# docker/docker-compose.yml
+
+version: "3.9"
+
+services:
+  ml-api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: ml_model_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../model:/app/model
+      - ../app:/app/app
+    restart: always
