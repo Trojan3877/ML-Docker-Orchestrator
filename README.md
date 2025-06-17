@@ -1,3 +1,7 @@
+# 🚀 ML-Docker-Orchestrator with Full MLops Pipeline
+
+A containerized machine learning deployment pipeline using **PyTorch**, **Docker Compose**, **Kubernetes**, **Terraform**, **Ansible**, **Apache Kafka**, and **Snowflake**.
+
 # 🚀 ML-Docker-Orchestrator
 
 A containerized machine learning deployment pipeline using **PyTorch**, **Docker Compose**, **Kubernetes**, **Terraform**, **Ansible**, **Apache Kafka**, and **Snowflake**.
@@ -28,24 +32,23 @@ A containerized machine learning deployment pipeline using **PyTorch**, **Docker
 
 ```plaintext
 ML-Docker-Orchestrator/
-├── model/                   # PyTorch model training
-├── app/                     # FastAPI app for inference
-├── docker/                  # Dockerfile & Compose
-├── k8s/                     # Kubernetes manifests
-├── terraform/               # Terraform IaC scripts
-├── ansible/                 # Ansible provisioning
-├── snowflake/               # Snowflake DB connector
-├── apache/                  # Apache Kafka simulator
-├── .github/workflows/       # CI workflow
-├── notebooks/               # (New) Exploratory Jupyter Notebooks
-├── tests/                   # (New) Unit and integration tests
+├── model/train.py
+├── app/main.py
+├── docker/
+│   ├── Dockerfile
+│   └── docker-compose.yml
+├── k8s/deployment.yaml
+├── terraform/main.tf
+├── ansible/provision.yml
+├── snowflake/connect_snowflake.py
+├── apache/stream_data.py
+├── tests/test_api.py
+├── notebooks/eda_snowflake_data.ipynb
+├── .github/workflows/ci.yml
+├── Makefile
 ├── requirements.txt
+├── .env.example
+├── CONTRIBUTING.md
+├── CHANGELOG.md
 ├── README.md
 └── visual_flowchart.png
-
-
-
-
-
-# ML-Docker-Orchestrator
- 
