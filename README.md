@@ -2,13 +2,6 @@
 
 A containerized machine learning deployment pipeline using **PyTorch**, **Docker Compose**, **Kubernetes**, **Terraform**, **Ansible**, **Apache Kafka**, and **Snowflake**.
 
-# 🚀 ML-Docker-Orchestrator
-
-A containerized machine learning deployment pipeline using **PyTorch**, **Docker Compose**, **Kubernetes**, **Terraform**, **Ansible**, **Apache Kafka**, and **Snowflake**.
-
----
-
-## 🔖 Badges
 
 ![Docker](https://img.shields.io/badge/Containerized-Docker-informational)
 ![Kubernetes](https://img.shields.io/badge/Orchestrator-Kubernetes-blue)
