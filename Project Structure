@@ -1,34 +1,21 @@
 ML-Docker-Orchestrator/
-│
-├── model/
-│   └── train.py
-│
-├── app/
-│   └── main.py
-│
+├── model/train.py
+├── app/main.py
 ├── docker/
 │   ├── Dockerfile
 │   └── docker-compose.yml
-│
-├── k8s/
-│   └── deployment.yaml
-│
-├── terraform/
-│   └── main.tf
-│
-├── ansible/
-│   └── provision.yml
-│
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-│
-├── snowflake/
-│   └── connect_snowflake.py
-│
-├── apache/
-│   └── stream_data.py
-│
+├── k8s/deployment.yaml
+├── terraform/main.tf
+├── ansible/provision.yml
+├── snowflake/connect_snowflake.py
+├── apache/stream_data.py
+├── tests/test_api.py
+├── notebooks/eda_snowflake_data.ipynb
+├── .github/workflows/ci.yml
+├── Makefile
 ├── requirements.txt
+├── .env.example
+├── CONTRIBUTING.md
+├── CHANGELOG.md
 ├── README.md
 └── visual_flowchart.png
