@@ -19,7 +19,9 @@ https://codecov.io/gh/Trojan3877/ML-Docker-Orchestrator/branch/main/graph/badge.
 
 ## 🧠 Architecture Flowchart
 
-![Flowchart](visual_flowchart.png)
+![image](https://github.com/user-attachments/assets/d9044d80-a9d7-42f7-8957-19bd2e9e9e77)
+
+
 
 ---
 
