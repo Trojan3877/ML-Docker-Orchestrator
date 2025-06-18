@@ -1,6 +1,7 @@
 # 🚀 ML-Docker-Orchestrator with Full MLops Pipeline
 
 A containerized machine learning deployment pipeline using **PyTorch**, **Docker Compose**, **Kubernetes**, **Terraform**, **Ansible**, **Apache Kafka**, and **Snowflake**.
+https://codecov.io/gh/Trojan3877/ML-Docker-Orchestrator/branch/main/graph/badge.svg
 
 
 ![Docker](https://img.shields.io/badge/Containerized-Docker-informational)
